@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="eng">
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Top 10 anime lists">
+<title>Top 10 anime lists</title>
+
+<head>
+
+</head>
+
+<body>
+    <header>
+        <!-- Sir i want to display the "Main","About us"and "Contacts" in a horizontal-->
+
+        <img id="logo" alt="Top 10 Anime List"
+            src="data:image/jpeg;base64,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">
+
+        <h1>Top 10 anime list</h1>
+        <nav>
+
+            <div class="main">
+
+                <a href="index.html" target="_blank">
+                    <p>Main</p>
+                </a>
+                <a href="about-us.html" target="_blank">
+                    <p>About Us</p>
+                </a>
+                <a href="contact.html" target="_blank">
+                    <p>Contacts</p>
+                </a>
+
+            </div>
+
+        </nav>
+    </header>
+    <!--The First Section will be the Top 10 Shonen Anime List and it's design-->
+    <main>
+        <section>
+            <h2>Top 10 Shonen Anime List</h2>
+            <article>
+                <ol>
+
+                    <li>Fullmetal Alchemist: Brotherhood (2009-2010)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-GoNo0DGroU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Edward and Alphonse Elric’s journey to recover their bodies after a mistaken attempt to bring
+                        their
+                        mother back to life using alchemy is definitely one of the most captivating stories in anime.
+                        That’s
+                        why it’s no surprise Hiromu Arakawa’s manga received a second adaptation once it was clear her
+                        story
+                        was winding down.</p>
+                    <p>Admittedly, <a class="fullmetal" href="https://www.cbr.com/tag/fullmetal-alchemist-brotherhood/"
+                            target="_blank" title="Fullmetal-Alchemist">Fullmetal Alchemist:Brotherhood’s</a> early
+                        parts
+                        aren’t quite as strong as the original series as it moves too fast. But that’s because it has so
+                        much more to get to. New plot twists and character development come at a breathless pace before
+                        finally giving viewers a wonderfully satisfying ending, providing fans with not only one of the
+                        best
+                        shonen anime ever but one of the best anime ever.</p>
+
+                    <li>Hunter X Hunter (2011-Present)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d6kBeJjTGnY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>The world of <a class="fullmetal" href="https://www.cbr.com/tag/hunter-x-hunter/"
+                            target="_blank">Hunter x Hunter</a> is dangerous. At any moment, any character could make a
+                        poor
+                        decision or run into the wrong character, and wind up very, very dead. This is a world where,
+                        more
+                        often than not, even the main character is struggling to avoid being killed by vastly more
+                        powerful
+                        opponents, creating a constant sense of tension even when they’re in the midst of a grand
+                        adventure.
+                    </p>
+
+                    <li>JoJo's Bizarre Adventure (2012-Present)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EeCX8Y0a278"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Before reinventing itself as a seinen with the beginning of Steel Ball Run, <a class="fullmetal"
+                            href="https://www.cbr.com/tag/jojos-bizarre-adventure/" target="_blank">JoJo's Bizarre
+                            Adventure</a> was a revolutionary title in the shonen genre. It's been going on since the
+                        late
+                        '80s, and Hirohiko Araki is showing no signs of slowing down. Anybody who calls themselves a fan
+                        of
+                        shonen needs to watch this anime.</p>
+                    <p>JoJo's is a generational storyline that constantly reinvents itself. It's a true ground-breaker
+                        for
+                        the genre, and with every new part, its campiness and absurdity only increase. JoJo's has become
+                        such a cultural phenomenon that other anime series blatantly reference it. Most notably, other
+                        series have incorporated the "menacing" onomatopoeia, and some characters have done JoJo's poses
+                        or
+                        mimicked the Joestars' battle cries.</p>
+
+                    <li>Komi Can't Communicate (2021-Present)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tLdLTSnmnoA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p><a class="fullmetal" href="https://www.cbr.com/tag/komi-cant-communicate/" target="_blank">Komi
+                            Can't
+                            Communicate</a> is another anime that proves shonen isn't all about action-packed battles
+                        and
+                        intense characters. Its manga was published in Weekly Shonen Sunday, making it a definite shonen
+                        title. Komi Can't Communicate follows Komi Shoko, a high schooler with severe social anxiety
+                        that
+                        makes it extremely difficult for her to talk to other people. However, she has a goal of making
+                        100
+                        friends by the end of her high school career.</p>
+                    <p>Enter Tadano, Komi's first friend who found that communicating through written notes is an
+                        effective
+                        way of talking. From there, Komi's life turns upside down as she befriends the entire school and
+                        experiences all kinds of wacky things along the way. Komi Can't Communicate has a lovable
+                        ensemble
+                        cast with all kinds of personalities, from the emo otaku, Nakanaka to the chaotic nonbinary
+                        spitfire, Najimi.</p>
+
+                    <li>One Piece (1999-Present)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LHTYpWI3S6Q"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>There are some pretty strong arguments for Eiichiro Oda’s saga of Monkey D. Luffy and his gang of
+                        pirates in search of ultimate treasure being the best shonen series of them all. It stands as
+                        the
+                        most popular of Shonen Jump’s "big three" over twenty years after it began, and Oda just keeps
+                        surprising people with new reveals and callbacks to plotlines from years prior.</p>
+                    <p>Supposedly, Oda is almost done with the storyline now. However, if there’s one flaw to One Piece,
+                        it
+                        has to be the pacing. Twenty years of storytelling means the anime has to use quite a few tricks
+                        to
+                        slow things down and not outpace the manga.</p>
+
+                    <li>Dragon Ball Z (1990-1996)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sxufB6DxXk0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Even though <a class="fullmetal" target="_blank"
+                            href="https://www.cbr.com/tag/dragon-ball-z/">Dragon
+                            Ball Z</a> isn’t the first shonen anime ever, it’s definitely the most influential. In one
+                        way
+                        or another, almost every other hit shonen series has taken inspiration from Dragon Ball Z. After
+                        all, a shonen series is nothing without transformations and training sequences. Even time skips
+                        were
+                        popularized with this series.</p>
+                    <p>Dragon Ball Z’s lack of character development and generally simplistic plots can leave something
+                        to
+                        be desired even amongst shonen fans, but one must pay homage to the genre’s origins and
+                        acknowledge
+                        Dragon Ball Z as one of the most popular series of all time.</p>
+
+                    <li>Naruto (2002-2017)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-G9BqkgZXRA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Masashi Kishimoto’s story of a young ninja rejected by his city and working to one day become the
+                        leader of his village captured the imagination of every kid and teenager who grew up in the
+                        2000s.
+                        Alongside Bleach and One Piece, Naruto would become part of Shonen Jump’s "big three." While
+                        Bleach
+                        lost quite a bit of its luster by the end, Naruto was just as strong as ever when it finished
+                    </p>
+                    <p><a class="fullmetal" href="https://www.cbr.com/tag/naruto/" target="_blank">Naruto</a> was so
+                        popular
+                        it even wound up inspiring a legacy manga series based on Naruto’s son, Boruto, adding a
+                        generational aspect to the series. The only thing holding this series back from even greater
+                        heights
+                        is the absurd amount of filler.</p>
+
+                    <li>My Hero Academia (2016-Present)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mezyq2OX6TM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Welcome to the adventures of Class 1-A, full of the Best Boys and Best Girls that anime has to
+                        offer.
+                        The lead Best Boy is Izuku Midoriya, a young teenager who starts out without superpowers in a
+                        world
+                        where almost everyone has a Quirk. When Midoriya meets his idol and biggest superhero of them
+                        all,
+                        All Might, he winds up pulled into an adventure that will lead to him becoming the greatest hero
+                        ever.</p>
+                    <p><a class="fullmetal" href="https://www.cbr.com/tag/my-hero-academia/" target="_blank">My Hero
+                            Academia</a> might not be doing anything wholly new, but author Kohei Horikoshi is taking
+                        the
+                        tropes of the genre and executing them better than anyone else in the game right now. The only
+                        thing
+                        holding the series back is it's simply too new, with the franchise only starting in 2016.</p>
+
+                    <li>Fairy Tail (2009-2018)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BaIWwk-sAlw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Hiro Mashima’s story of a guild of magic users who for some reason like to punch, kick, and slice
+                        things more than actually casting spells has enjoyed a great deal of popularity over the last
+                        decade. <a class="fullmetal" href="https://www.cbr.com/tag/fairy-tail/" target="_blank">Fairy
+                            Tail</a> has come back not once but twice — with the recent version winding down the
+                        original
+                        manga’s storyline.</p>
+
+                    <li>Assassination Classroom (2015-2016)</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kgNkGohA20k"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p><a href="https://www.cbr.com/tag/assassination-classroom/" target="_blank"
+                            class="fullmetal">Assassination Classroom</a> takes place at Kunugigaoka Middle School. It's
+                        an
+                        elite school with a harsh hierarchy system, and the academy's lowest performers are exiled to a
+                        building off campus for their studies. Class 3-E had little to no chance of improving their
+                        grades
+                        until Koro-sensei came along. He's an eccentric monster who resembles a big yellow octopus and
+                        Class
+                        3-E must successfully assassinate him before he destroys the planet.</p>
+                    <p>Assassination Classroom has a lovable cast of characters. Though the students are supposed to
+                        kill
+                        him, it's extremely hard to dislike Koro-sensei. He's the best teacher these kids have had. Most
+                        of
+                        Assassination Classroom is lighthearted, fun, and upbeat, but its ending is a real tear-jerker.
+                    </p>
+
+                </ol>
+            </article>
+        </section>
+        <div>
+            <button id="login">
+                Login
+            </button>
+        </div>
+        <section>
+            <h2>Top 10 Slice of Life Anime List</h2>
+            <aricle>
+                <ol>
+                    <li>Anohana: The Flower We Saw That Day Is About Confronting Difficult Feelings</li>
+                    <p></p>
+                </ol>
+            </aricle>
+        </section>
+        <section>
+            <filedset>
+                <a>
+                    <h3>About us</h3>
+                </a>
+                <p></p>
+                <form>
+
+                </form>
+            </filedset>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copy rights dflksjlfdk</p>
+
+    </footer>
+
+
+</body>
+
+</html>

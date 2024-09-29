@@ -1,0 +1,136 @@
+body {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px 1px rgba(183, 139, 139, 0.5);
+    color: black;
+    font-family: Agency FB;
+
+}
+
+header {
+
+    background-color: #F4E2C6;
+    border-radius: 15px;
+    display: flex;
+    margin: 50px;
+    font-family: Agency FB;
+
+}
+
+#logo {
+    aspect-ratio: auto;
+    border-radius: 15px;
+    background-color: #F4E2C6;
+    width: auto;
+    height: auto;
+    padding: 0.4rem;
+    font-family: Agency FB;
+
+
+}
+
+
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 300%;
+    max-width: 100%;
+    font-family: Agency FB;
+
+}
+
+/*  This property is for the navigation buttons*/
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: Agency FB;
+
+}
+
+.fullmetal {
+
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Agency FB;
+
+}
+
+a:hover {
+    background-color: red;
+    border-radius: 8px;
+    color: black;
+    font-family: Agency FB;
+
+
+
+}
+
+main {
+    background-color: #F4E2C6;
+    margin: 50px;
+    padding: 0px;
+    border-radius: 25px;
+    font-family: Agency FB;
+
+}
+
+
+section {
+    margin: 10%;
+    padding: 5% 5% 5% 5%;
+    font-family: Agency FB;
+}
+
+h2 {
+    padding-bottom: 3%;
+    font-size: 200%;
+    font-family: Agency FB;
+    text-decoration: underline;
+}
+
+article {
+    min-width: 100%;
+    margin: 5px;
+    box-shadow: 5px 5px 10px 1px rgba(183, 139, 139, 0.5);
+
+}
+
+ol {
+    padding: 50px;
+}
+
+ol li {
+    padding: 15px;
+    text-align: justify;
+    font-size: 170%;
+}
+
+ol p {
+    font-size: 100%;
+    padding: 10px;
+    text-align: justify;
+}
+
+ol iframe {
+    justify-content: center;
+    min-width: 100%;
+    min-height: 200%;
+    display: block;
+    margin: auto;
+    padding: auto;
+
+}
+
+.fullmetal {
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
